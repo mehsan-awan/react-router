@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import Modal from './modal';
 
 const Contact = (props) => {
     // const navigate = useNavigate();
@@ -9,6 +10,7 @@ const Contact = (props) => {
 
     return(
         <div>
+            <Modal />
             <div 
                 className='ui raised very padded text container segment'
                 style={{marginTop:'80px'}}
